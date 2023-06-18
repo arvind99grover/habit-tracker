@@ -1,0 +1,43 @@
+/* Styles for the form container */
+#form {
+	width: 60%;
+	margin: auto;
+	height: 3rem;
+	padding-top: 1rem;
+	background-color: #e86a0d;
+	padding-left: 200px;
+	padding-right: 155px;
+	border-top-width: 5px;
+	border-top-style: solid;
+	border-bottom-width: 0px;
+	border-bottom-style: solid;
+	border-right-width: 5px;
+	border-right-style: solid;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+/* Styles for the label */
+#label{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+/* CSS for the input field */
+input{
+    width: 40%;
+    height: 1.1rem;
+    border-radius: 0.4rem;
+    margin-right: 1%;
+    padding: 0.2rem;
+}
+/* CSS for the input field */
+#add-btn{
+    height: 1.5rem;
+}
+/* Media query for screens with a maximum width of 800px */
+@media screen and (max-width: 800px){
+  #form{
+    width: 70%;
+    margin: auto;
+  }
+}

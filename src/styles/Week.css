@@ -1,0 +1,35 @@
+/* CSS for the week container */
+.week{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+}
+/* CSS for the week container */
+#habit-name{
+    text-align: center;
+    margin: 2% 0% 1% 2%;
+      margin-left: 0%;
+      margin-bottom: 0%;
+    font-weight: 500;
+    color: rgb(203, 27, 27);
+    font-size: 1.2rem;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-bottom-width: 0px;
+    border-bottom-style: solid;
+    border-right-width: 5px;
+    border-right-style: solid;
+    border-left-width: 5px;
+    border-left-style: solid;
+}
+/* CSS for the "today" element */
+.today{
+    color: rgb(248, 21, 53);
+}
+/* Styles for the habit icon */
+#habit-icon{
+    margin-right: 2%;
+    color: rgb(231, 7, 14);
+    font-size: 1.2rem;
+}

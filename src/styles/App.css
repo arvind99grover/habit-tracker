@@ -1,0 +1,46 @@
+/* Styles for the main container of the app */
+.App {
+  text-align: center;
+  width: 60%;
+  height: 100vh;
+  margin: auto;
+}
+
+/* Styles for the navigation bar */
+.App-nav{
+  padding: 3% 25%;
+  margin-bottom: 4%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #e86a0d;
+  margin-right: 0px;
+  margin-left: 0px;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  border-top-width: 5px;
+  border-top-style: solid;
+  border-right-width: 5px;
+  border-right-style: solid;
+  border-left-width: 5px;
+  border-left-style: solid;
+}
+
+.links{
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+.active{
+  font-weight: 700;
+}
+
+/* Styles for the navigation bar */
+@media screen and (max-width: 800px){
+	.App{
+    width: 100vw;
+    border-left: 20px solid lightblue;
+    border-right: 20px solid lightblue;
+    border-bottom: 20px solid lightblue;;
+  }
+}

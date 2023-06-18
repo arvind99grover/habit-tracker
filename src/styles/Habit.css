@@ -1,0 +1,50 @@
+/* Styles for elements with flex display */
+.flex-display{
+    display: flex;
+    justify-content: space-between;
+}
+/* Styles for the list item */
+#list-item{
+    margin-left: -3%;
+    margin-top: -1%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+}
+/* Styles for habit elements */
+.habit{
+    padding: 3% 4%;
+    text-align: left;
+    border-top-width: 5px;border-top-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    border-right-width: 5px;
+    border-right-style: solid;
+    border-left-width: 5px;
+    border-left-style: solid;
+    margin-bottom: -5px;
+}
+/* Styles for the habit description */
+.description{
+    width: 50%;
+}
+
+/* Media querys for screens */
+@media screen and (max-width: 900px){
+    #list-item{
+        margin-left: 15%;
+        margin-top: -9%;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #list-item{
+        margin-left: 15%;
+        margin-top: -12%;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+}
+

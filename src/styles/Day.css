@@ -1,0 +1,32 @@
+/* Styles for the status container */
+#status{
+    width: 95%;
+    height: 51%;
+    background-color: rgb(215, 198, 188);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: visible;
+
+}
+/* Styles for the "today" element */
+.today{
+    background-color: rgb(63, 32, 7);
+}
+/* Styles for the "today" element */
+.day{
+    height: 6rem;
+    border: 2px solid rgb(21, 21, 12);
+    flex-grow: 100;
+}
+/* Styles for the "today" element */
+#check-icon{
+    color: rgb(32, 150, 58);
+    font-size: 1.5rem;
+}
+/* Styles for the "cross" icon */
+#cross-icon{
+    color: red;
+    font-size: 1.5rem;
+}
