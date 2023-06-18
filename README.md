@@ -1,8 +1,6 @@
 # Habit-tracker-app
 
-[Habit-tracker1]
-
-[Habit-tracker2]
+The habit tracker app is a tool designed to help users develop and maintain positive habits. With this app, users can define habits they want to track, such as reading a book, going to the gym, meditating, or practicing a musical instrument. The app allows users to monitor their progress and track their habits on a daily basis.
 
 1. Set up the project:
 	Create a new React app using Create React App: npx create-react-app habit-tracker
@@ -13,28 +11,28 @@
 	Create the following folder structure:
 
 	habit-tracker
-	├── src
-	│   ├── actions.js
-	│   ├── actionTypes.js
-	│   ├── components
-	│   │   ├── App.js
-	│   │   ├── Day.js
-	│   │   ├── Habit.js
-	│   │   ├── HabitForm.js
-	│   │   ├── Habits.js
-	│   │   ├── Week.js
-	│   │   └── WeekView.js
-	│   ├── reducers.js
-	│   ├── index.js
-	│   ├── store.js
-	│   └── Styles
-	│       ├── App.css
-	│       ├── Day.css
-	│       ├── Habit.css
-	│       ├── HabitForm.css
-	│       └── Week.css
-	├── README.md
-	└── package.json
+├── src
+│   ├── actions.js
+│   ├── actionTypes.js
+│   ├── components
+│   │   ├── App.js
+│   │   ├── Day.js
+│   │   ├── Habit.js
+│   │   ├── HabitForm.js
+│   │   ├── Habits.js
+│   │   ├── Week.js
+│   │   └── WeekView.js
+│   ├── reducers.js
+│   ├── index.js
+│   ├── store.js
+│   └── Styles
+│       ├── App.css
+│       ├── Day.css
+│       ├── Habit.css
+│       ├── HabitForm.css
+│       └── Week.css
+├── README.md
+└── package.json
 
 3. Implement the Redux store and reducers:
 	In src/actionTypes.js, define the action types for adding habits, updating habit statuses, etc.
