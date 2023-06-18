@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+![Habit-tracker1.png]
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Habit-tracker2.png]
 
-## Available Scripts
+1. Set up the project:
+	Create a new React app using Create React App: npx create-react-app habit-tracker
+	Change to the project directory: cd habit-tracker
+	Install Redux and React Router: npm install redux react-redux react-router-dom
 
-In the project directory, you can run:
+2. Folder structure:
+	Create the following folder structure:
 
-### `npm start`
+	habit-tracker
+	├── src
+	│   ├── actions.js
+	│   ├── actionTypes.js
+	│   ├── components
+	│   │   ├── App.js
+	│   │   ├── Day.js
+	│   │   ├── Habit.js
+	│   │   ├── HabitForm.js
+	│   │   ├── Habits.js
+	│   │   ├── Week.js
+	│   │   └── WeekView.js
+	│   ├── reducers.js
+	│   ├── index.js
+	│   ├── store.js
+	│   └── Styles
+	│       ├── App.css
+	│       ├── Day.css
+	│       ├── Habit.css
+	│       ├── HabitForm.css
+	│       └── Week.css
+	├── README.md
+	└── package.json
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. Implement the Redux store and reducers:
+	In src/actionTypes.js, define the action types for adding habits, updating habit statuses, etc.
+	In src/actions.js, create action creators for the defined action types.
+	In src/reducers.js, create a reducer function to handle the state updates based on the dispatched actions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. Implement the components:
+	In src/components/Habit.js, create a component to display a single habit and allow toggling its status.
+	In src/components/Habits.js, create a component to render all the habits and handle adding new habits.
+	In src/components/HabitForm.js, create a form component to add new habits.
+	In src/components/Day.js, create a component to display the status of a habit for a specific day.
+	In src/components/Week.js, create a component to display the status of a habit for the past 7 days.
+	In src/components/WeekView.js, create a component to show the current habits and their statuses for the past 7 days.
+	In src/components/App.js, create the main app component that handles routing and renders the necessary components based on the URL.
+	
+5. Implement the routing:
+	In src/App.js, use react-router-dom to define routes for the main views: current habits and week view.
+	Set up the navigation links and route components in App.js.
+	
+6. Style the components:
+	Use the CSS files in the src/Styles folder to style the respective components.
 
-### `npm test`
+7. Test the app:
+	Start the development server: npm start
+	Open the app in your browser and test the functionality.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Habit-tracker1.png]
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Habit-tracker2.png]
