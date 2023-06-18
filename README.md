@@ -1,8 +1,8 @@
 # Habit-tracker-app
 
-![Habit-tracker1]
+[Habit-tracker1]
 
-![Habit-tracker2]
+[Habit-tracker2]
 
 1. Set up the project:
 	Create a new React app using Create React App: npx create-react-app habit-tracker
