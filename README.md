@@ -1,6 +1,8 @@
-![Habit-tracker1.png]
+# Habit-tracker-app
 
-![Habit-tracker2.png]
+![Habit-tracker1]
+
+![Habit-tracker2]
 
 1. Set up the project:
 	Create a new React app using Create React App: npx create-react-app habit-tracker
@@ -59,6 +61,3 @@
 	Start the development server: npm start
 	Open the app in your browser and test the functionality.
 
-![Habit-tracker1.png]
-
-![Habit-tracker2.png]
