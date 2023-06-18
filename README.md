@@ -10,7 +10,8 @@ The habit tracker app is a tool designed to help users develop and maintain posi
 2. Folder structure:
 	Create the following folder structure:
 
-	habit-tracker
+
+habit-tracker
 ├── src
 │   ├── actions.js
 │   ├── actionTypes.js
@@ -33,6 +34,7 @@ The habit tracker app is a tool designed to help users develop and maintain posi
 │       └── Week.css
 ├── README.md
 └── package.json
+
 
 3. Implement the Redux store and reducers:
 	In src/actionTypes.js, define the action types for adding habits, updating habit statuses, etc.
